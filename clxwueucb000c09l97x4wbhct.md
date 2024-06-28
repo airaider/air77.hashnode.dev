@@ -13,14 +13,6 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/FHnnjk1Yj7Y/up
 
 \[IT 블로그를 시작하기로 한 결정과 플랫폼 선택 과정에 대한 간단한 소개\]
 
-## **🤔 왜 나만 블로그 없어?**
-
-![brand-full.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1636462572386/nUwXsU2Nr.jpeg?auto=compress,format&format=webp align="left")
-
-> ***주변의 잘 나가는 개발자들을 보면 대부분 근사한 개인 블로그를 가지고 있다. 내가 잘 나가지는 않지만... 근사한 개인 블로그 정도는 가질 수 있지 않을까.***
-
-수시 최종 발표가 수능 2주 전에 나오는 바람에 수능 전후로 일정이 붕 떠버렸다. 그래서 이참에 해보고 싶었던 블로그를 시작하기로 했다. 플랫폼은 미리 점찍어 두었던 `hashnode`를 골랐다. 이유는 아래와 같다.
-
 ## Hashnode의 장점
 
 * **사용 편의성**:
