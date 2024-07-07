@@ -38,6 +38,15 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/VieM9BdZKFo/up
 
 글을 업데이트하고 작성할때 마다 연동된 깃허브 레포에 자동으로 푸시한다. 1일1커밋은 생각보다 매우 쉬운 일로 느껴질 수 있다.
 
+* **Analytics 제공**
+    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1720336928674/ccad2b28-c811-4fc9-a1e4-6333294e7f2a.png align="center")
+
+사이트의 방문자 수, 접근 경로, 위치 등이 분석되어서 제공이 된다!
+
+나름 초짜 블로거에게는 유용한 기능이다 🤔
+
 * **SEO 최적화**:
     
 
