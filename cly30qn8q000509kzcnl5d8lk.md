@@ -14,12 +14,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/pCqzMe04s8g/up
 
 > [https://school.programmers.co.kr/learn/challenges?tab=algorithm\_practice\_kit](https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)
 
-* [언어](https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)
+* 언어
     
-    [java 코테용 파이썬](https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)
+    java 코테용 파이썬
     
-* [방향성](https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)
+* 방향성
     
-    * [개인프로젝트 (뭐 알아서 하면서 보고)](https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)
+    * 개인프로젝트 (뭐 알아서 하면서 보고)
         
-    * [2주일에 한번씩 별거아니더라](https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)도 개인 블로그 쓰기
+    * 2주일에 한번씩 별거아니더라도 개인 블로그 쓰기
