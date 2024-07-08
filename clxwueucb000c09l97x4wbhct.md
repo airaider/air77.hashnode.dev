@@ -27,21 +27,21 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/VieM9BdZKFo/up
 * **내장된 커뮤니티**:
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719537157726/2d4c3e86-8ccd-41f2-af25-883dc921c676.png align="center")
+![해시노드 피드](https://cdn.hashnode.com/res/hashnode/image/upload/v1719537157726/2d4c3e86-8ccd-41f2-af25-883dc921c676.png align="center")
 
 개발자 커뮤니티가 활발하다. 실시간으로 전세계 개발자들의 글을 확인하고 팔로우할 수 있다. 트위터, 깃허브 등으로 공유 기능도 지원한다. 하지만 이 커뮤니티는 장점이자 단점으로 다가오는데 단점 부분에서 설명하겠다...
 
 * **자동 백업**:
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719537226559/deb3f62f-f521-4520-9a5a-b2c274cb5f66.png align="center")
+![깃 자동 백업](https://cdn.hashnode.com/res/hashnode/image/upload/v1719537226559/deb3f62f-f521-4520-9a5a-b2c274cb5f66.png align="center")
 
 글을 업데이트하고 작성할때 마다 연동된 깃허브 레포에 자동으로 푸시한다. 1일1커밋은 생각보다 매우 쉬운 일로 느껴질 수 있다.
 
 * **Analytics 제공**
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1720336928674/ccad2b28-c811-4fc9-a1e4-6333294e7f2a.png align="center")
+![Analytics 제공](https://cdn.hashnode.com/res/hashnode/image/upload/v1720336928674/ccad2b28-c811-4fc9-a1e4-6333294e7f2a.png align="center")
 
 사이트의 방문자 수, 접근 경로, 위치 등이 분석되어서 제공이 된다!
 
@@ -50,7 +50,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/VieM9BdZKFo/up
 * **SEO 최적화**:
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719537254836/09b94a6a-467d-45d3-b809-6dceb99a99e3.png align="center")
+![SEO 추천 기능](https://cdn.hashnode.com/res/hashnode/image/upload/v1719537254836/09b94a6a-467d-45d3-b809-6dceb99a99e3.png align="center")
 
 SEO 최적화 기능도 제공한다. 글을 작성하면 알아서 SEO에 가장 적합한 제목으로 AI가 추천해주기 때문에 노출도를 올리기에 용이하다
 
