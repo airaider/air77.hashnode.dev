@@ -138,7 +138,7 @@ FeignClient를 활용하여 보다 간편하게 위에 개발한 API를 호출
 
 ```java
 @Primary
-@FeignClient(value = "SSG-SEARCH-AGGREGATE-API",
+@FeignClient(value = "AGGREGATE-API",
   path = "/aggregate",
   configuration = AggregateApiFeignConfiguration.class,
   fallback = AggregateApiClient.AggregateApiClientFallback.class)
@@ -151,7 +151,7 @@ public interface AggregateApiClient {
     return Optional.ofNullable(validVenIds(venIds)).orElse(Collections.emptySet());
   }
 
-  default Set<String> getCpcPlusVenIdSetY(Set<String> venIdList) {
+  default Set<String> getVenIdSetY(Set<String> venIdList) {
     Set<String> validVenList = getValidVenIds(venIdList);
     return venIdList.stream()
       .filter(validVenList::contains)
