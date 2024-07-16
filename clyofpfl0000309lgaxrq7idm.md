@@ -18,6 +18,8 @@ tags: java, kotlin
 
 코틀린이 어떤 매력이 있길래 이러한 트랜드가 발생했는지 알아보자!
 
+---
+
 ## 코틀린의 장점
 
 1. ### 간결한 문법 📖
@@ -118,12 +120,103 @@ fun main() {
 
 코틀린은 객체지향과 함수형 프로그래밍을 모두 지원하여 더 유연한 코드 작성이 가능합니다.
 
+* 람다 표현식
+    
+    간결한 문법으로 함수를 정의할 수 있다
+    
+
 ```kotlin
-// 함수형 프로그래밍 예시
-val numbers = listOf(1, 2, 3, 4, 5)
-val squaredEvenNumbers = numbers.filter { it % 2 == 0 }.map { it * it }
-println(squaredEvenNumbers) // 출력: [4, 16]
+val sum = { x: Int, y: Int -> x + y } println(sum(3, 5)) // 출력: 8
 ```
+
+* 고차 함수
+    
+    함수를 인자로 받거나 함수를 반환할 수 있다
+    
+
+```kotlin
+fun operation(x: Int, y: Int, op: (Int, Int) -> Int): Int {
+    return op(x, y)
+}
+
+val result = operation(4, 5) { a, b -> a * b }
+println(result) // 출력: 20
+```
+
+* 불변성과 순수 함수
+    
+    불변 데이터 구조를 쉽게 만들 수 있고, 부작용 없는 순수 함수를 작성할 수 있다
+    
+
+```kotlin
+data class Person(val name: String, val age: Int)
+
+fun incrementAge(person: Person): Person {
+    return person.copy(age = person.age + 1)
+}
+
+val john = Person("John", 30)
+val olderJohn = incrementAge(john)
+println(john) // 출력: Person(name=John, age=30)
+println(olderJohn) // 출력: Person(name=John, age=31)
+```
+
+* 컬렉션 처리:
+    
+    함수형 스타일로 컬렉션을 쉽게 처리할 수 있다
+    
+
+```kotlin
+val numbers = listOf(1, 2, 3, 4, 5)
+val evenSquares = numbers.filter { it % 2 == 0 }.map { it * it }
+println(evenSquares) // 출력: [4, 16]
+
+val sum = numbers.fold(0) { acc, n -> acc + n }
+println(sum) // 출력: 15
+```
+
+* 지연 평가(Lazy evaluation):
+    
+    시퀀스를 사용하여 대량의 데이터를 효율적으로 처리할 수 있다
+    
+
+```kotlin
+val largeList = (1..1000000).toList()
+val result = largeList.asSequence()
+    .filter { it % 2 == 0 }
+    .map { it * it }
+    .take(5)
+    .toList()
+println(result) // 출력: [4, 16, 36, 64, 100]
+```
+
+* 패턴 매칭:
+    
+    when 표현식을 사용하여 강력한 패턴 매칭을 구현할 수 있습니다
+    
+
+```kotlin
+fun describe(obj: Any): String =
+    when (obj) {
+        1 -> "One"
+        "Hello" -> "Greeting"
+        is Long -> "Long number"
+        !is String -> "Not a string"
+        else -> "Unknown"
+    }
+
+println(describe(1)) // 출력: One
+println(describe("Hello")) // 출력: Greeting
+println(describe(1000L)) // 출력: Long number
+println(describe(2)) // 출력: Not a string
+println(describe("Other")) // 출력: Unknown
+```
+
+이러한 함수형 프로그래밍 기능들을 통해 코틀린에서는 더 선언적이고, 간결하며, 유지보수가 쉬운 코드를 작성할 수 있다.
+
+또한 이러한 기능들은 동시성 프로그래밍이나 대규모 데이터 처리와 같은 복잡한 문제를 해결하는 데에도 매우 유용하다.
+
+---
 
 ## 정리 🧹
 
@@ -137,6 +230,8 @@ println(squaredEvenNumbers) // 출력: [4, 16]
     
 * 안드로이드 개발의 공식 언어: 구글이 안드로이드 개발의 공식 언어로 코틀린을 채택함에 따라, 안드로이드 개발자들 사이에서 코틀린의 사용이 급증하고 있습니다.
     
+
+---
 
 ## 결론 🚀
 
