@@ -32,7 +32,7 @@ tags: ubuntu, oracle, nginx
 
 다양한 선택지를 제공하는데 우리가 필요한것은 VM 서버!
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721737229569/185f82e3-c358-4088-99ce-e2563de6976c.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721781160368/70b64a6f-e15a-4a40-9259-f064fec720f5.png align="center")
 
 리소스 실행 -&gt; 'VM 인스턴스 생성 메뉴'를 클릭합니다
 
@@ -55,7 +55,7 @@ VM이 만들어지면 아래 화면이 보인다
 
 다양한 정보와 함께 우리가 확인해야할 부분은 ip 주소
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721737412755/f0f785bd-591e-4e43-afca-c82430f33ece.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721781425124/f3339e98-a82a-4d26-8a7e-ddd8ec72d6ea.png align="center")
 
 미리 저장해둔 key를 이용하여 해당 ip주소에 접근한다
 
@@ -120,11 +120,11 @@ lines 1-17/17 (END)
 
 그래야 웹에서 해당 서버 IP로 접근이 가능하다
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721738004658/4fb30ace-a5df-4b3e-a429-78729e7a0254.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721781594618/23276d09-ca3a-46b2-a182-883f9e7095c2.png align="center")
 
 서브넷에 접근한다
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721738044275/378a22ce-318a-4b35-b25b-1c6f2849de40.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721781509880/f8adc49c-b10e-4b55-bbdf-0b4fc54b34bb.png align="center")
 
 보안목록에 이름 접근 -&gt; 신규 규칙 추가
 
