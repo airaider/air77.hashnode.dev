@@ -4,7 +4,7 @@ datePublished: Mon Aug 05 2024 13:35:14 GMT+0000 (Coordinated Universal Time)
 cuid: clzh1abv9000009mdfqsxalq3
 slug: grpc
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/T9rKvI3N0NM/upload/d7a0dc26fafb96ec2377220ffbd55a43.jpeg
-tags: grpc, microservice-architecture
+tags: grpc, grafana, microservice-architecture
 
 ---
 
@@ -136,7 +136,22 @@ suspend fun main() {
 }
 ```
 
-## 5\. gRPC의 단점 👎
+## 5. 현업 적용 예시
+
+gRPC를 적용한 서비스와 기존 http 요청을 보내는 서비스를 비교해보자
+
+nGrinder를 통한 부하테스트를 실행하고 grafana를 통해 성능을 각각 체크했다
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723606236707/563c5d12-a557-40fc-bce4-728a59210793.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723606246331/f65f2c99-2746-420c-8c25-6b0193121ea2.png align="center")
+
+* 평균 TPS: 기존 http 99.6 → gRPC 169.2, 70% 증가
+    
+* 평균 테스트 시간(ms): 4,960 ms → 2,939 ms, 40% 감소
+    
+
+## 6\. gRPC의 단점 👎
 
 물론 gRPC에도 몇 가지 단점이 있다:
 
@@ -151,7 +166,7 @@ suspend fun main() {
 5. **서비스 검색 메커니즘 부재**: 별도의 구현이 필요하다.
     
 
-## 6\. 결론 🤩
+## 7\. 결론 🤩
 
 gRPC는 MSA 환경에서 서비스 간 효율적인 통신을 위한 강력한 도구입니다. 높은 성능, 강력한 타입 안정성, 다중 언어 지원 등의 장점으로 인해 많은 기업과 개발자들이 채택하고 있다.
 
