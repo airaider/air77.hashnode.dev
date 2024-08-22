@@ -25,6 +25,8 @@ read하는 테이블만 수정하고 코드를 돌려보니 무척이나 오래 
 
 오래 걸리는 구간을 파악했으니 해결해보자
 
+---
+
 2. ## 시도 🤔
     
 
@@ -44,6 +46,8 @@ items.parallelStream().forEach(item -> { do something});
 
 하지만 다시 찾아보니 parallelStream을 막 도입하기에는 주의사항이 많았다
 
+---
+
 3. ## 문제 😵‍💫
     
 
@@ -58,6 +62,8 @@ items.parallelStream().forEach(item -> { do something});
 만능처럼 보이던 `parallelStream` 은 동기화 문제, 오버헤드, 그리고 스레드를 직접적으로 건들기 때문에 수십개의 배치가 동시에 돌아가는 서버에서 어떠한 영향을 줄지 몰랐다...
 
 하지만 이것도 해결책을 찾아보자~
+
+---
 
 4. ## 해결 🤩
     
@@ -112,6 +118,8 @@ try {
   throw new RuntimeException("Redis Pipeline 중 에러 발생", e);
 }
 ```
+
+---
 
 5. ## 결과 🤝
     
