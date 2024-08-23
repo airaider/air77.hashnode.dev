@@ -136,6 +136,8 @@ try {
 
 • **개선 후**: 해당 구간 약 30초로 단축
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724372634115/6335a7bd-7a6b-4058-8ffc-9313b8f4cdcd.png align="center")
+
 parallelStream과 Redis의 executePipelined를 도입한 결과, 병목 구간의 개선을 이루어내면서 배치 수행 시간이 획기적으로 줄었다.
 
 대용량 데이터를 처리하는 이런 배치 잡들은 작은 튜닝으로도 엄청난 성능 향상을 가져올 수 있다.
