@@ -95,7 +95,7 @@ Redis의 경우, parallelStream을 사용하는 대신 executePipelined를 사�
 
 executePipelined를 사용하면 여러 명령을 한 번에 전송하여 네트워크 비용을 줄일 수 있다.
 
-db insert 쪽의 성능 향상을 위해서는 보통 오퍼레이션 수를 늘리는 것보다 batch insert를 하는 것을 권장합니다.
+db insert 쪽의 성능 향상을 위해서는 보통 오퍼레이션 수를 늘리는 것보다 batch insert를 하는 것을 권장한다.
 
 ```java
 try {
