@@ -3,7 +3,7 @@ title: "Bloom Filter가 뭔데?"
 datePublished: Wed Sep 04 2024 05:22:22 GMT+0000 (Coordinated Universal Time)
 cuid: cm0new22o000408jua5tw8ojn
 slug: bloom-filter
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/1sAoxyo7K9s/upload/137c5d5bb2ac8756ebe2f15303b2ff70.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/gM-RfQsZK98/upload/909bcce2fc72b61a267809e0d6a48c7d.jpeg
 tags: bloom-filter, falsepositives
 
 ---
