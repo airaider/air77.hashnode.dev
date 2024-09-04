@@ -20,6 +20,8 @@ tags: bloom-filter, falsepositives
 
 무엇인지 한번 알아보자
 
+---
+
 ## 1\. 블룸 필터란? 🌸
 
 블룸 필터(Bloom Filter)는 1970년 Burton Howard Bloom이 제안한 확률적 자료 구조이다
