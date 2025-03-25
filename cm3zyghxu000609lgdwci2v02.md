@@ -2,7 +2,7 @@
 title: "광고 업체 유효성 검사 시스템 개선"
 datePublished: Wed Nov 27 2024 14:02:29 GMT+0000 (Coordinated Universal Time)
 cuid: cm3zyghxu000609lgdwci2v02
-slug: ioq0keqzocdsl4xssrqg7jyg7zqo7isxioqygoycrcdsi5zsiqtthzwg6rcc7isgia
+slug: kafka
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/GC_MO-vOa3s/upload/ffd9d482dd74ccbf2be1f63a058b4815.jpeg
 tags: mysql, mongodb, kafka, grpc, webflux
 
