@@ -2,7 +2,7 @@
 title: "템플릿 메소드 패턴이 뭔데?"
 datePublished: Tue Aug 13 2024 07:46:37 GMT+0000 (Coordinated Universal Time)
 cuid: clzs4cths00130alfex8n0iev
-slug: 7ywc7zsm66aiouploygjoutncdtjkjthltsnbqg662u642wpw
+slug: template
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/U3-jqWs2o2g/upload/d97a2fbf97e24a91f38b38b1fcbb90cf.jpeg
 tags: design-patterns, template-method-pattern
 
