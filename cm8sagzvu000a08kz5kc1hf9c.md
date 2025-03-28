@@ -8,7 +8,7 @@ tags: claudeai, mcp
 
 ---
 
-요새는 누구나 ChatGPT나 Claude 같은 **AI 툴들**에 대해 한 번쯤은 들어봤을 것이다
+요새는 누구나 ChatGPT나 Claude 같은 **AI 툴**들에 대해 한 번쯤은 들어봤을 것이다
 
 개발자들은 거의 필수적으로 LLM을 활용해 생산성을 극대화하고 있고,
 
@@ -85,14 +85,14 @@ MCP는 맥북에 사용하는 포트 허브라고 생각하면 편하다
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743125492590/bf7cd559-519e-4ecc-9e99-decc02a5c69a.png align="center")
 
-2. ### [**config 파일 구성**](https://claude.ai/download)
+2. ### **config 파일 구성**
     
 
-[clau](https://claude.ai/download)de\_desktop\_config.json 에 mcpServer 구성을 해야한다
+claude\_desktop\_config.json 에 mcpServer 구성을 해야한다
 
 처음부터 파일이 있는것이 아니라 초기 생성이 필요하다
 
-우선 설정부터 가보자 (앱 내의 계정 설정이 아니라 Claude 자체의 Settings으로 가야한다)
+우선 설정부터 가보자 → 앱 내의 계정 설정이 아니라 Claude 자체의 Settings으로 가야한다
 
 ![](https://mintlify.s3.us-west-1.amazonaws.com/mcp/images/quickstart-menu.png align="left")
 
