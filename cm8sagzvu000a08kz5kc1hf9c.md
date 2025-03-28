@@ -20,9 +20,9 @@ tags: claudeai, mcp
 
 하는 생각, 한 번쯤 해봤을 거인데
 
-📣 **하지만 이제는 더 이상 상상이 아님!**
+📣 **하지만 이제는 더 이상 상상이 아니다!**
 
-👉 바로 MCP를 활용하면 가능함!
+👉 바로 MCP를 활용하면 가능하기 때문에!
 
 ## **🧩 1. MCP란?**
 
@@ -55,7 +55,7 @@ MCP는 맥북에 사용하는 포트 허브라고 생각하면 편하다
     
 * ✉️ 지메일 최근 메일 10건 요약해줘
     
-* 🧾 [README.md](http://README.md)를 git repo에 커밋해줘
+* 🧾 README.md를 git repo에 커밋해줘
     
 * 🔍 Brave Search로 어제 산불 뉴스 검색해줘
     
@@ -155,7 +155,7 @@ UI 상에 **🔨 망치 아이콘**으로 표시되는게 현재 등록된 mcp �
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743125863386/69c3d385-2bc7-4803-9d37-297abd49478b.png align="center")
 
-## **🚀** 3\. MCP의 확장성
+## **🚀** 3. MCP의 확장성
 
 그러면 파일시스템 외에 어떠한 mcp 서비스들을 추가할 수 있는지 살펴보자
 
