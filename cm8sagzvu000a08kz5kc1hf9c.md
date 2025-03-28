@@ -155,7 +155,7 @@ UI 상에 **🔨 망치 아이콘**으로 표시되는게 현재 등록된 mcp �
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743125863386/69c3d385-2bc7-4803-9d37-297abd49478b.png align="center")
 
-## 3\. MCP의 확장성
+## **🚀** 3\. MCP의 확장성
 
 그러면 파일시스템 외에 어떠한 mcp 서비스들을 추가할 수 있는지 살펴보자
 
